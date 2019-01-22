@@ -4,9 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EDM
+namespace ContosoForms
 {
-    public class Class1
+    class AppConstants
     {
+        public enum Grade
+        {
+            A, B, C, D, F
+        }
     }
 }

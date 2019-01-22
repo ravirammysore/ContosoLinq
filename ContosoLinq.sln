@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EDM", "EDM\EDM.csproj", "{3B34CB87-397F-41A7-AB17-4975F41960CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContosoForms", "ContosoForms\ContosoForms.csproj", "{022FB8E2-DD0D-4D5B-8244-96891EE6AE44}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{3B34CB87-397F-41A7-AB17-4975F41960CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B34CB87-397F-41A7-AB17-4975F41960CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B34CB87-397F-41A7-AB17-4975F41960CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{022FB8E2-DD0D-4D5B-8244-96891EE6AE44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{022FB8E2-DD0D-4D5B-8244-96891EE6AE44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{022FB8E2-DD0D-4D5B-8244-96891EE6AE44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{022FB8E2-DD0D-4D5B-8244-96891EE6AE44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
