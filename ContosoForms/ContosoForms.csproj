@@ -54,6 +54,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppConstants.cs" />
+    <Compile Include="CreateNoBinding.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateNoBinding.Designer.cs">
+      <DependentUpon>CreateNoBinding.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateWithBinding.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateWithBinding.Designer.cs">
+      <DependentUpon>CreateWithBinding.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +86,12 @@
     <Compile Include="Set2Form.Designer.cs">
       <DependentUpon>Set2Form.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="CreateNoBinding.resx">
+      <DependentUpon>CreateNoBinding.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateWithBinding.resx">
+      <DependentUpon>CreateWithBinding.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -93,6 +111,7 @@
       <DependentUpon>Set2Form.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\EDM.Student.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

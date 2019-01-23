@@ -26,5 +26,15 @@ namespace ContosoForms
         {
             new Set2Form().Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            new CreateNoBinding().Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            new CreateWithBinding().Show();
+        }
     }
 }
